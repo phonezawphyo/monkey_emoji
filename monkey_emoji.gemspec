@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = MonkeyEmoji::VERSION
   s.authors     = ["Phone Z Phyo"]
   s.email       = ["phonezawphyo@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/phonezawphyo/monkey_emoji"
   s.summary     = "Encode and decode unicode emoji characters for saving in db that does not store 4 byte unicode characters."
   s.description = "This module injects `encode_emoji` and `decode_emoji` methods to String and NilClass. ActiveRecord::Base is also injected with `encode_emoji` class method so that attributes encodes emoji automatically before save."
   s.license     = "MIT"
