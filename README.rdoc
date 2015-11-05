@@ -1,6 +1,0 @@
-= MonkeyEmoji
-Encode and decode unicode emoji characters for saving in db that does not store 4 byte unicode characters.
-
-It injects `encode_emoji` and `decode_emoji` methods to String and NilClass. ActiveRecord::Base is also injected with `encode_emoji` class method so that attributes encodes emoji automatically before save.
-
-This project uses MIT-LICENSE.
